@@ -11,14 +11,14 @@ permalink:        pretty
 # Setup
 title:            Data Science for SAFS
 description:      'Teaching the tools to get computers to do cool science'
-url:              http://www.datacarpentry.org/semester-biology
-baseurl:          /semester-biology
+url:              https://sr320.github.io/data-science-fish/
+baseurl:          /data-science-fish
 email:            roberts.sbr@gmail.com
-feedbackurl:      https://docs.google.com/forms/d/e/1FAIpQLSdV_polFmoukgjcs1IC0Dd4iO1rdgwFnOds28xC_ma_z4tNIw
+feedbackurl:      
 author:
   name:           'Steven Roberts'
   url:            https://twitter.com/sr320
 
 github:
-  repo:           https://github.com/sr320/semester-biology
+  repo:           https://github.com/sr320/data-science-fish
   #               Be sure the 'Issues' feature is activated in 'Settings'
