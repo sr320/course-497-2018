@@ -1,19 +1,19 @@
 ---
 layout: page
 title: Syllabus
-catalog: WIS 6934
+catalog: FISH 497
 credits: 3
-semester: Fall 2017
-professor: Dr. Ethan White and Kristina Riemer
-office: Room 1 in Building 150 (just north of Newins-Zeigler)
-email: ethanwhite@ufl.edu
-phone: 352-294-2081
-schedule: ['Tuesdays, 4:05-4:55, 222 Newins-Ziegler Hall',
-           'Fridays, 11:45-1:40, 219 Newins-Ziegler Hall']
-office_hours: Monday 2-3:15 and Wednesday 11-12
-office_hours_location: Newins-Zeigler 203
-TA: Andrew Marx
-TA_email: andrewjmarx@ufl.edu
+semester: Spring 2018
+professor: Dr. Steven Roberts
+office: FSB
+email: sr320@uw.edu
+phone: 206-866-5141
+schedule: ['Tuesdays, 1-3, 222 FISH 213',
+           'Thursdays, 9:30-11, FISH 213']
+#office_hours: Monday 2-3:15 and Wednesday 11-12
+#office_hours_location: Newins-Zeigler 203
+TA: TBD
+TA_email: TBD
 ---
 
 ## {{ site.title }} 
