@@ -27,7 +27,7 @@ TA_email: TBD
 Office: {{ page.office }}
 
 Email (best way to contact us):
-[{{ page.email }}](mailto:{{ page.email }}), [kristina.riemer@ufl.edu](mailto:kristina.riemer@ufl.edu)
+[{{ page.email }}](mailto:{{ page.email }}), 
 
 Phone: {{ page.phone }}
 

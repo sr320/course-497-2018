@@ -10,7 +10,7 @@ permalink:        pretty
 
 # Setup
 title:            Data Science for SAFS
-description:      'Teaching the tools to get computers to do cool science'
+description:      'A new undergraduate course with a focus on R'
 url:              https://sr320.github.io/course-497-2018
 baseurl:          /course-497-2018
 email:            roberts.sbr@gmail.com
