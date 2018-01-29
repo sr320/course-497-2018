@@ -1,8 +1,8 @@
 ---
 layout: page
 element: assignment
-title: Template                
-language: Access-Python-R-SQL
+title: Navigating Commandliine                
+language: Bash
 exercises: ['Exercise Template', 'Exercise Template']
 ---
 
@@ -10,9 +10,11 @@ exercises: ['Exercise Template', 'Exercise Template']
 
 > Following this assignment students should be able to:
 >
-> - Insert objective 1
-> - Insert objective 2
-> - Insert objective 3
+> *   Explain the similarities and differences between a file and a directory.
+> *   Translate an absolute path into a relative path and vice versa.
+> *   Construct absolute and relative paths that identify specific files and directories.
+> *   Identify the actual command, flags, and filenames in a command-line call.
+> *   Demonstrate the use of tab completion, and explain its advantages.
 
 {% include reading.html %}
 
