@@ -3,7 +3,7 @@ layout: page
 title: Computer Setup
 ---
 
-***WIS 6934 students will need their own laptops set up with SQL by the start of 
+***Students will need their laptops set up with SQL by the start of 
 classes, R by week 3, and Git by week 8.***
 
 ### SQL
@@ -65,11 +65,3 @@ machine you can try to install it via your distro's package manager. For
 Debian/Ubuntu run `sudo apt-get install git` and for Fedora run `sudo yum
 install git`.
 
-### Python
-
-*Python installation is not required for WIS 6934. Python materials on this site
-are no longer under active development.*
-
-Download and install the
-[Anaconda Scientific Python Distribution](http://continuum.io/downloads).
-I recommend you use a special editor like the [Wing Intelligent Development Environment - 101](http://wingware.com/downloads/wingide-101).
