@@ -47,10 +47,7 @@ Times: {{ page.office_hours }}
 
 Location: {{ page.office_hours_location }}
 
-Or by appointment. *Note: my schedule gets very busy during the semester so
-please try to schedule appointments as far in advance as possible. In general it
-will be very difficult to set up appointments less than 24 hours in advance.*
-
+Or by appointment. 
 
 ### Course TA
 
@@ -199,21 +196,35 @@ one.
 
 ### University Policy on Accommodating Students with Disabilities
 
-Students requesting accommodation for disabilities must first register with the
-Dean of Students Office (http://www.dso.ufl.edu/drc/). The Dean of Students
-Office will provide documentation to the student who must then provide this
-documentation to the instructor when requesting accommodation. You must submit
-this documentation prior to submitting assignments or taking the quizzes or
-exams. Accommodations are not retroactive, therefore, students should contact
-the office as soon as possible in the term for which they are seeking
-accommodations.
+It is crucial that all students in this class have access to the full
+range of learning experiences. At the University of Washington, it is
+the policy and practice to create inclusive and accessible learning
+environments consistent with federal and state law. Full participation
+in this course requires the following types of engagement: Course
+Component Requirement(s) Lecture The ability to attend tri-weekly
+lectures of 50 minutes with 150 other students. The ability to complete
+weekly in-class online quizzes of 3–6 questions ￼Lab The ability to
+attend weekly 80 minute labs with 25 other students. The ability to work
+with other students, dissect organisms, and go on one field trip that
+will consist of walking on flat, possibly muddy terrain. ￼If you
+anticipate or experience barriers to your learning or full participation
+in this course based on a physical, learning, or mental health
+disability, please immediately contact the instructor to discuss
+possible accommodations. A more complete description of the disability
+policy of the College of the Environment can be found here. If you have,
+or think you have, a temporary or permanent disability that impacts your
+participation in any course, please also contact Disability Resources
+for Students (DRS) at: 206–543–8924 V / 206–543–8925 TDD / uwdss@uw.edu
+/ http://www.uw.edu/students/drs.
 
 
 ### University Policy on Academic Misconduct
 
-Academic honesty and integrity are fundamental values of the University
-community. Students should be sure that they understand the UF Student Honor
-Code at http://www.dso.ufl.edu/students.php.
+Passing anyone else’s scholarly work (which can include written
+material, exam answers, graphics or other images, and even ideas) as
+your own, without proper attribution, is considered academic misconduct.
+Anyone engaging in academic misconduct will not receive credit for the
+course
 
 
 ### Netiquette and Communication Courtesy
