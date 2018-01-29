@@ -131,14 +131,6 @@ time will be provided for working on projects.
 
 Get more details about the project from the [Projects Introduction]({{ site.baseurl}}/materials/projects).
 
-### How this course relates to the Student Learning Outcomes in Wildlife Ecology and Conservation
-
-This course contributes to the 'Quantitative Skills' and 'Conducting and
-Analyzing Independent/Original Research' Student Learning Outcomes specified in
-the
-[Ph.D. and MS in Wildlife Ecology and Conservation Academic Assessment Plans](http://assessment.aa.ufl.edu/Data/Sites/22/media/2013-14gaap/cals/2013-14-cals-wildlife-ecol-and-consvn-phd-aap.pdf),
-by providing students the skills and knowledge they need to manage and analyze
-the data used in research.
 
 
 ### Teaching Philosophy
@@ -153,16 +145,6 @@ knowing more take a look at this great
 
 ### Instructional Methods
 
-As a flipped classroom, students are provided with either reading or video
-material that they are expected to view/read prior to class. Classes will
-involve brief refreshers on new concepts followed by working on exercises in
-class that cover that concept. While students are working on exercises the
-instructor will actively engage with students to help them understand material
-they find confusing, explain misunderstandings and help identify mistakes that
-are preventing students from completing the exercises, and discuss novel
-applications and alternative approaches to the data analysis challenges students
-are attempting to solve. For more challenging topics class may start with 20-30
-minute demonstrations on the concepts followed by time to work on exercises.
 
 
 ## Course Policies
@@ -202,7 +184,7 @@ Assignments are due Monday night by 11:59 pm Eastern Time. Assignments should be
 submitted via Canvas.
 
 
-### Course Technology
+### Course Technology (_PENDING_)
 
 Students are required to provide their own laptops and to install free and open
 source software on those laptops (see [Setup]({{ site.baseurl }}/computer-setup)
@@ -212,7 +194,7 @@ please contact the instructor and they will do their best to provide you with
 one.
 
 
-## UF Policies
+## UW Policies
 
 
 ### University Policy on Accommodating Students with Disabilities
@@ -242,27 +224,7 @@ courtesy in all email messages, threaded discussions and chats.
 
 ## Getting Help
 
-For issues with technical difficulties for E-learning in Canvas, please contact the UF Help Desk at:
-
-* Learning-support@ufl.edu 
-* (352) 392-HELP - select option 2
-* https://lss.at.ufl.edu/help.shtml 
-
-Any requests for make-ups due to technical issues MUST be accompanied by the
-ticket number received from LSS when the problem was reported to them. The
-ticket number will document the time and date of the problem. You MUST e-mail
-your instructor within 24 hours of the technical difficulty if you wish to
-request a make-up.
-
-Other resources are available at http://www.distance.ufl.edu/getting-help for:
-
-* Counseling and Wellness resources
-* Disability resources
-* Resources for handling student concerns and complaints
-* Library Help Desk support
-
-Should you have any complaints with your experience in this course please visit
-http://www.distance.ufl.edu/student-complaints to submit a complaint.
+ 
 
 **Most importantly, if you are struggling for any reason please come talk to me
 and I will do my best to help.**
@@ -290,17 +252,8 @@ the two.
 
 ### Grading scale
 
-- **A 93-100**
-- **A- 90-92**
-- **B+ 87-89**
-- **B 83-86**
-- **B- 80-82**
-- **C+ 77-79**
-- **C 73-76**
-- **C- 70-72**
-- **D+ 67-69**
-- **D 60-66**
-- **E <60**
+
+
 
 
 ## Course Schedule
@@ -310,6 +263,6 @@ The details course schedule is available on the course website at:
 
 
 **Disclaimer:** This syllabus represents my current plans and objectives. As we
-go through the semester, those plans may need to change to enhance the class
+go through the quarter, those plans may need to change to enhance the class
 learning opportunity. Such changes, communicated clearly, are not unusual and
 should be expected.
