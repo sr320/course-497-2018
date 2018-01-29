@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Assignment Schedule
-assignments: ['Introduction to R and RStudio', 'Working with Data', 'Data Visualization',
+assignments: ['Data Entry and Storage', 'Database Queries', 'Introduction to R and RStudio', 'Working with Data', 'Data Visualization',
 'Projects Structure', 'Version Control', 'Working with Spatial Data', 'Project Week', 'Knitr', 'tidyr', 'Project Week']
 ---
 
