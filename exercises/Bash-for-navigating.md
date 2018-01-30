@@ -1,8 +1,8 @@
 ---
 layout: exercise
 topic: Bash
-title: Navigating the commandline
-language: bash
+title: Navigating the Commandline
+language: Bash
 ---
 
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 element: assignment
-title: Navigating Commandline                
+title: Navigating the Commandline                
 language: Bash
-exercises: ['Navigating the commandline']
+exercises: ['Navigating the Commandline']
 ---
 
 #### Learning Objectives
