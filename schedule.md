@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Assignment Schedule
-assignments: ['Navigating the Commandline', 'Introduction to R and RStudio', 'Working with Data', 'Data Visualization',
+assignments: ['Data Organization in Spreadsheets', 'Navigating the Commandline', 'Introduction to R and RStudio', 'Working with Data', 'Data Visualization',
 'Projects Structure', 'Version Control', 'Working with Spatial Data', 'Project Week', 'Knitr', 'tidyr', 'Project Week']
 ---
 
@@ -15,7 +15,7 @@ assignments are available as well. You can see the full list of
 outside of an organized course.
 
 <!-- Schedule Management
-- Update the `assignments:` list with `title:` from `assignments/` files. 
-- Add 'Template' to `assignments:` to view the course template from `docs/`. 
+- Update the `assignments:` list with `title:` from `assignments/` files.
+- Add 'Template' to `assignments:` to view the course template from `docs/`.
 - The remaining content should be left AS IS.
 -->
