@@ -10,7 +10,7 @@ exercises: ['Navigating the Commandline']
 
 > Following this assignment students should be able to:
 >
-> *   Explain the similarities and differences between a file and a directory.
+> *   Explain similarities and differences between a file and a directory.
 > *   Translate an absolute path into a relative path and vice versa.
 > *   Construct absolute and relative paths that identify specific files and directories.
 > *   Identify the actual command, flags, and filenames in a command-line call.
@@ -31,4 +31,4 @@ Assignment Management
 3. Name the file with the format: `language-short-description.md`in the
    `assignments/` directory. The file must start with a `lower` case letter.
 4. Generate an `exercises:` list of `exercises/` `title:`.
-5. Add assignment `title:` to `schedule.md` `assignments:` list. 
+5. Add assignment `title:` to `schedule.md` `assignments:` list.
