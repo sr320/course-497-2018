@@ -6,10 +6,8 @@ language: Bash
 ---
 
 
-# Just Text
-
 ## Navigating the computer from the command line
-In this module we will be following a Software Carpentry Lesson. It is suggested that you have this page open to follow along and a bash shell window. 
+In this exercise we will be following a Software Carpentry Lesson. It is suggested that you have this page open to follow along and a bash shell window.
 
 ---
 
@@ -71,7 +69,7 @@ it shows us who the shell thinks we are:
 ```
 $ whoami
 ```
-``` 
+```
 yourname
 ```
 
@@ -100,12 +98,12 @@ which is Nelle's **home directory**:
 ```
 $ pwd
 ```
-``` 
+```
 /users/nelle
 ```
 <!---
-> ## Alphabet Soup 
-> 
+> ## Alphabet Soup
+>
 > If the command to find out who we are is `whoami`, the command to find
 > out where we are ought to be called `whereami`, so why is it `pwd`
 > instead? The usual answer is that in the early 1970s, when Unix was
@@ -150,7 +148,7 @@ because its name begins with `/`.
 > it refers to the root directory. When it appears *inside* a name,
 > it's just a separator.
 
---- 
+---
 
 So that we have the same experience lets navigate to the 'fake' directory structure you just downloaded.  For example on a Mac you can type `cd Desktop/shell-novice/data/users/nelle` if you are in your home direcotory.
 
@@ -197,7 +195,7 @@ which doesn't exist.
 
 <!--
 > ## What's In A Name?
-> 
+>
 > You may have noticed that all of Nelle's files' names are "something dot
 > something". This is just a convention: we can call a file `mythesis` or
 > almost anything else we want. However, most people use two-part names
@@ -232,7 +230,7 @@ we want a listing of something other than our current working directory:
 ```
 $ ls -F data
 ```
-``` 
+```
 amino-acids.txt   elements/     morse.txt
 pdb/              planets.txt   sunspot.txt
 ```
@@ -271,7 +269,7 @@ because `/data` is an **absolute path**:
 $ ls -F /data
 ```
 
-``` 
+```
 access.log    backup/    hardware.cfg
 network.cfg
 ```
@@ -293,7 +291,7 @@ and `ls` without any arguments shows us that directory's contents:
 ```
 $ pwd
 ```
-``` 
+```
 /users/nelle
 ```
 ```
@@ -330,7 +328,7 @@ $ pwd
 ```
 $ ls -F
 ```
-``` 
+```
 amino-acids.txt   elements/     morse.txt
 pdb/              planets.txt   sunspot.txt
 ```
@@ -348,7 +346,7 @@ but it's almost always simpler to use `cd ..` to go up one level:
 ```
 $ pwd
 ```
-``` 
+```
 /users/nelle/data
 ```
 ```
@@ -375,7 +373,7 @@ If we want to display it, we can give `ls` the `-a` flag:
 ```
 $ ls -F -a
 ```
-``` 
+```
 ./          Desktop/             pizza.cfg
 ../         molecules/           solar.pdf
 creatures/  north-pacific-gyre/  writing/
@@ -393,7 +391,7 @@ but we'll see some uses for it soon.
 
 <!--
 > ## Orthogonality {.callout}
-> 
+>
 > The special names `.` and `..` don't belong to `ls`;
 > they are interpreted the same way by every program.
 > For example,
@@ -494,7 +492,7 @@ and we will see it in many other tools as we go on.
 
 >
 > If `pwd` displays `/users/thing`, what will `ls ../backup` display?
-> 
+>
 > 1.  `../backup: No such file or directory`
 > 2.  `2012-12-01 2013-01-08 2013-01-27`
 > 3.  `2012-12-01/ 2013-01-08/ 2013-01-27/`
@@ -505,11 +503,11 @@ and we will see it in many other tools as we go on.
 > If `pwd` displays `/users/backup`,
 > and `-r` tells `ls` to display things in reverse order,
 > what command will display:
-> 
+>
 > ```
 > pnas-sub/ pnas-final/ original/
 > ```
-> 
+>
 > 1.  `ls pwd`
 > 2.  `ls -r -F`
 > 3.  `ls -r -F /users/backup`
@@ -517,7 +515,7 @@ and we will see it in many other tools as we go on.
 
 ---
 > What does the command `cd` without a directory name do?
-> 
+>
 > 1.  It has no effect.
 > 2.  It changes the working directory to `/`.
 > 3.  It changes the working directory to the user's home directory.
@@ -532,7 +530,7 @@ and we will see it in many other tools as we go on.
 
 # Creating Things
 
-#### Objectives 
+#### Objectives
 
 * Create a directory hierarchy that matches a given diagram.
 * Create files in that hierarchy using an editor or by copying and renaming existing files.
@@ -547,7 +545,7 @@ We now know how to explore files and directories, but how do we create them in t
 
 **Actually**   will look something more like `/Users/sr320/Desktop/shell-novice/data/users/nelle`
 
-    
+
 
     $ ls -F
 
@@ -774,7 +772,7 @@ Now that we know a few basic commands, we can finally look at the shell's most p
 
     cubane.pdb    ethane.pdb    methane.pdb
     octane.pdb    pentane.pdb   propane.pdb
-    
+
 ## word count
 
 Let's go into that directory with `cd` and run the command `wc *.pdb`. `wc` is the "word count" command: it counts the number of lines, words, and characters in files. The `*` in `*.pdb` matches zero or more characters, so the shell turns `*.pdb` into a complete list of `.pdb` files:
@@ -1058,10 +1056,10 @@ What other command(s) could be added to this in a pipeline to find out what anim
 3. Generate or repair [course linkages]({{ site.baseurl }}/docs/site/course-structure).
   - The `title` may be listed in `assignments/`
   - An output file or set of files can be stored in `solutions/` with
-    matching `Topic-title-Language` format. The file retains its file 
-    extension. Multiple files are numbered such as: 
-    `Templates-exercise-template-Python-1.txt`, 
+    matching `Topic-title-Language` format. The file retains its file
+    extension. Multiple files are numbered such as:
+    `Templates-exercise-template-Python-1.txt`,
     `Templates-exercise-template-Python-2.jpg`, ...
-  - Reference the exercise in a follow-up link: 
+  - Reference the exercise in a follow-up link:
     ```[Title]({{ site.baseurl }}/exercises/Topic-title-Language)```
-4. Be sure to [contribute]({{ site.baseurl l}}/docs/course/contributing) your new exercise to the [Data Carpentry Repository](https://github.com/datacarpentry/semester-biology). 
+4. Be sure to [contribute]({{ site.baseurl l}}/docs/course/contributing) your new exercise to the [Data Carpentry Repository](https://github.com/datacarpentry/semester-biology).

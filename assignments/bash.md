@@ -10,7 +10,7 @@ exercises: ['Navigating the Commandline']
 
 > Following this assignment students should be able to:
 >
-> *   Explain similarities and differences between a file and a directory.
+> *   Explain the similarities and differences between a file and a directory.
 > *   Translate an absolute path into a relative path and vice versa.
 > *   Construct absolute and relative paths that identify specific files and directories.
 > *   Identify the actual command, flags, and filenames in a command-line call.
