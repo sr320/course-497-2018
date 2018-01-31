@@ -2,7 +2,7 @@
 layout: page
 title: Assignment Schedule
 assignments: ['Data Organization in Spreadsheets', 'Navigating the Commandline', 'Introduction to R and RStudio', 'Working with Data', 'Data Visualization',
-'Projects Structure', 'Version Control', 'Working with Spatial Data', 'Project Week', 'Knitr', 'tidyr', 'Project Week']
+'Projects Structure', 'Version Control', 'Working with Spatial Data', 'Knitr']
 ---
 
 [Assignment submission & checklist]({{ site.baseurl }}/materials/turn-in-checklist)
