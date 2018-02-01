@@ -8,15 +8,15 @@ professor: Dr. Steven Roberts
 office: FTR 232
 email: sr320@uw.edu
 phone: 206-866-5141
-schedule: ['Tuesdays, 1-3, 222 FISH 213',
-           'Thursdays, 9:30-11, FISH 213']
+schedule: ['Tuesdays, 1-3, 222 FSH 213',
+           'Thursdays, 9:30-11, FSH 213']
 #office_hours: Monday 2-3:15 and Wednesday 11-12
 #office_hours_location: Newins-Zeigler 203
 TA: TBD
 TA_email: TBD
 ---
 
-## {{ site.title }} 
+## {{ site.title }}
 
 {{ page.catalog }}, {{ page.credits }} Credits, {{ page.semester }}
 
@@ -26,8 +26,9 @@ TA_email: TBD
 
 Office: {{ page.office }}
 
-Email (best way to contact us):
-[{{ page.email }}](mailto:{{ page.email }}), 
+Email:
+[{{ page.email }}](mailto:{{ page.email }})
+
 
 Phone: {{ page.phone }}
 
@@ -49,13 +50,13 @@ periodically for updates.
 
 
 
-### Required Texts
+### Textbook
 
-There is no required text book for this class.
-
+Supplemental Reading will be from the text: **R for Data Science** by Garrett Grolemund and Hadley Wickham.
+A version of the textbook available free online: [http://r4ds.had.co.nz/](http://r4ds.had.co.nz/)
 
 ### Course Description
- 
+
 Computers are increasingly essential to the study of all aspects of
 biology. Data management skills are needed for entering data without errors,
 storing it in a usable way, and extracting key aspects of the data for
@@ -193,7 +194,7 @@ courtesy in all email messages, threaded discussions and chats.
 
 ## Getting Help
 
- 
+
 
 **Most importantly, if you are struggling for any reason please come talk to me
 and I will do my best to help.**
