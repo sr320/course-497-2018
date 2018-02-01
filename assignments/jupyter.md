@@ -2,7 +2,7 @@
 layout: page
 element: assignment
 title: Jupyter Notebooks              
-language: ipython
+language: Python, Bash, R
 exercises: ['Jupyter Notebooks']
 ---
 
