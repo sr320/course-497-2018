@@ -66,7 +66,7 @@ introduction to data management, manipulation, and analysis, with an emphasis on
 biological problems. Class will typically consist of short introductions or
 question & answer sessions, followed by hands on computing exercises. The course
 will be taught using bash, R, and Jupyter Notebooks, but the concepts learned will easily apply to
-all programming languages and data analyis. No background in
+all programming languages and data analysis. No background in
 programming is required.
 
 
@@ -88,7 +88,8 @@ databases. **By learning how to get the computer to do your work for you, you wi
 
 Students completing this course will be able to:
 
-* Extract information from databases
+* Understand how to navigate a computer file system
+* Create spreadsheets using proper formatting for downstream analysis
 * Write simple computer programs in R
 * Automate data analysis
 * Apply these tools to address biological questions
