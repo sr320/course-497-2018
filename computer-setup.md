@@ -3,8 +3,8 @@ layout: page
 title: Computer Setup
 ---
 
-***Students will need their laptops set up with SQL by the start of 
-classes, R by week 3, and Git by week 8.***
+***Students will need their laptops set up with Microsoft Excel by the start of
+classes, Bash by week 2, and R by week 3, and Jupyter notebook by week 5.***
 
 ### SQL
 
@@ -64,4 +64,3 @@ Git is probably already installed. If it is not already available on your
 machine you can try to install it via your distro's package manager. For
 Debian/Ubuntu run `sudo apt-get install git` and for Fedora run `sudo yum
 install git`.
-
