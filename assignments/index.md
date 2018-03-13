@@ -3,6 +3,11 @@ layout: page
 title: Assignments
 ---
 
+### Bash
+* [Navigating the Commandline](bash)
+
+
+
 ### SQL
 
 * [Introduction to Databases](sql-data)

@@ -2,15 +2,14 @@
 layout: default
 ---
 
-This website hosts introductory material for teaching biologists how to interact
-with data including: data structure, database management systems, and
-programming for data manipulation, analysis, and visualization.
+This website hosts introductory material for teaching biologists how to
+interact with data including: navigating the commandline, data
+structure, and programming for data manipulation, analysis, and
+visualization. This undergraduate course is being taught in the School of Aquatic and Fishery Sciences at the University of Washington. This course is forked from [datacarpentry/semester-biology](https://github.com/datacarpentry/semester-biology).
+From there other lessons were added from Softwary Carpentry and Data Carpentry.
 
+This class meets 2 times a week.
+>Tuesdays, 1-3, 222 FSH 213     
+>Thursdays, 9:30-11, FSH 213
 
-For Students
-: <a href="{{ site.baseurl}}/syllabus">
-  <i class="fa fa-file-text-o fa-fw"></i> Syllabus</a>
-: <a href="{{ site.baseurl}}/schedule">
-  <i class="fa fa-calendar fa-fw"></i> Schedule</a>
-
-
+See the sidebar to access the syllabus and schedule.

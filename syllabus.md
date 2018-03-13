@@ -5,18 +5,18 @@ catalog: FISH 497
 credits: 3
 semester: Spring 2018
 professor: Dr. Steven Roberts
-office: FSB
+office: FTR 232
 email: sr320@uw.edu
 phone: 206-866-5141
-schedule: ['Tuesdays, 1-3, 222 FISH 213',
-           'Thursdays, 9:30-11, FISH 213']
+schedule: ['Tuesdays, 1-3, 222 FSH 213',
+           'Thursdays, 9:30-11, FSH 213']
 #office_hours: Monday 2-3:15 and Wednesday 11-12
 #office_hours_location: Newins-Zeigler 203
 TA: TBD
 TA_email: TBD
 ---
 
-## {{ site.title }} 
+## {{ site.title }}
 
 {{ page.catalog }}, {{ page.credits }} Credits, {{ page.semester }}
 
@@ -26,34 +26,19 @@ TA_email: TBD
 
 Office: {{ page.office }}
 
-Email (best way to contact us):
-[{{ page.email }}](mailto:{{ page.email }}), 
+Email:
+[{{ page.email }}](mailto:{{ page.email }})
+
 
 Phone: {{ page.phone }}
 
 
 ### Times & Location
 
-**Note: class is in different locations depending on the day of the week**
-
 {% for class in page.schedule %}
   {{ class }}
 {% endfor %}
 
-
-### Office Hours
-
-Times: {{ page.office_hours }}
-
-Location: {{ page.office_hours_location }}
-
-Or by appointment. 
-
-### Course TA
-
-{{ page.TA }}
-
-Email: [{{ page.TA_email }}](mailto:{{ page.TA_email }})
 
 
 ### Website
@@ -64,18 +49,14 @@ Changes to the schedule will be posted to this site so please try to check it
 periodically for updates.
 
 
-### Course Communications
 
-Email: [{{ page.email }}](mailto:{{ page.email }})
+### Textbook
 
-
-### Required Texts
-
-There is no required text book for this class.
-
+Supplemental Reading will be from the text: **R for Data Science** by Garrett Grolemund and Hadley Wickham.
+A version of the textbook available free online: [http://r4ds.had.co.nz/](http://r4ds.had.co.nz/)
 
 ### Course Description
- 
+
 Computers are increasingly essential to the study of all aspects of
 biology. Data management skills are needed for entering data without errors,
 storing it in a usable way, and extracting key aspects of the data for
@@ -84,9 +65,9 @@ managing data, to statistical analysis, to modeling. This course will provide an
 introduction to data management, manipulation, and analysis, with an emphasis on
 biological problems. Class will typically consist of short introductions or
 question & answer sessions, followed by hands on computing exercises. The course
-will be taught using R and SQLite, but the concepts learned will easily apply to
-all programming languages and database management systems. No background in
-programming of databases is required.
+will be taught using bash, R, and Jupyter Notebooks, but the concepts learned will easily apply to
+all programming languages and data analysis. No background in
+programming is required.
 
 
 ### Prerequisite Knowledge and Skills
@@ -100,47 +81,31 @@ In this course you will learn all of the fundamental aspects of computer
 programming that are necessary for conducting biological research. By the end of
 the course you will be able to use these tools to import data into R, perform
 analysis on that data, and export the results to graphs, text files, and
-databases. By learning how to get the computer to do your work for you, you will
-be able to do more science faster.
+databases. **By learning how to get the computer to do your work for you, you will be able to do more science faster.**
 
 
 ### Course Goals and Objectives
 
 Students completing this course will be able to:
 
-* Create well structured databases
-* Extract information from databases
+* Understand how to navigate a computer file system
+* Create spreadsheets using proper formatting for downstream analysis
 * Write simple computer programs in R
 * Automate data analysis
 * Apply these tools to address biological questions
 * Apply general data management and analysis concepts to other programming
-  languages and database management systems
-
-### Course Project
-
-Projects offer an opportunity to work with bigger data-related computing tasks
-and learn specific computing tools you need for your research. Projects can
-involve programming, databases, or both. They should be on
-something you are excited about.
-
-As a rough guideline projects should represent ~30-40 hours of work. Some class
-time will be provided for working on projects.
-
-Get more details about the project from the [Projects Introduction]({{ site.baseurl}}/materials/projects).
+  languages
 
 
 
 ### Teaching Philosophy
 
-This class is taught using a flipped, learner-centered, approach, because
+This class is taught using a partially flipped, learner-centered, approach, because
 learning to program and work with data requires actively working on
 computers. Flipped classes work well for all kinds of content, but I think they
 work particularly well for computer oriented classes. If you're interested in
 knowing more take a look at this great
 [info-graphic](http://www.knewton.com/flipped-classroom-2/).
-
-
-### Instructional Methods
 
 
 
@@ -156,7 +121,6 @@ material.
 
 ### Quiz/Exam Policy
 
-There are no quizzes or exams in this course.
 
 
 ### Make-up policy
@@ -177,7 +141,7 @@ quickly.
 
 ### Assignment policy
 
-Assignments are due Monday night by 11:59 pm Eastern Time. Assignments should be
+Assignments are due  night  xxxxxx by 11:59 pm Pacific Time. Assignments should be
 submitted via Canvas.
 
 
@@ -200,21 +164,17 @@ It is crucial that all students in this class have access to the full
 range of learning experiences. At the University of Washington, it is
 the policy and practice to create inclusive and accessible learning
 environments consistent with federal and state law. Full participation
-in this course requires the following types of engagement: Course
-Component Requirement(s) Lecture The ability to attend tri-weekly
-lectures of 50 minutes with 150 other students. The ability to complete
-weekly in-class online quizzes of 3–6 questions ￼Lab The ability to
-attend weekly 80 minute labs with 25 other students. The ability to work
-with other students, dissect organisms, and go on one field trip that
-will consist of walking on flat, possibly muddy terrain. ￼If you
-anticipate or experience barriers to your learning or full participation
-in this course based on a physical, learning, or mental health
-disability, please immediately contact the instructor to discuss
-possible accommodations. A more complete description of the disability
-policy of the College of the Environment can be found here. If you have,
-or think you have, a temporary or permanent disability that impacts your
-participation in any course, please also contact Disability Resources
-for Students (DRS) at: 206–543–8924 V / 206–543–8925 TDD / uwdss@uw.edu
+in this course requires the following types of engagement: Working with
+computers in the classroom and outside of the classroom, working in small groups.
+If you anticipate or experience barriers to your
+learning or full participation in this course based on a physical,
+learning, or mental health disability, please immediately contact the
+instructor to discuss possible accommodations. A more complete
+description of the disability policy of the College of the Environment
+can be found here. If you have, or think you have, a temporary or
+permanent disability that impacts your participation in any course,
+please also contact Disability Resources for Students (DRS) at:
+206–543–8924 V / 206–543–8925 TDD / uwdss@uw.edu
 / http://www.uw.edu/students/drs.
 
 
@@ -235,7 +195,7 @@ courtesy in all email messages, threaded discussions and chats.
 
 ## Getting Help
 
- 
+
 
 **Most importantly, if you are struggling for any reason please come talk to me
 and I will do my best to help.**
