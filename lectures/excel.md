@@ -1,7 +1,7 @@
 ---
 layout: page
 element: lecture
-title: Introduction & Excel
+title: Data Organization in Spreadsheets
 language: Excel
 ---
 
