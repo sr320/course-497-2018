@@ -3,58 +3,27 @@ class: center, middle
 # FISH 497
 ## Data Science for SAFS
 
-https://github.com/sr320/course-fish497-2018
+
+https://sr320.github.io/course-fish497-2018/
 
 
 Steven Roberts
-@sr320
+
 
 ---
 
 ### What is this class?
 --
 
-- Focused on large, sequence based datasets
+- Data Science course with a focus on R
 
 --
 
-- Student/Project Driven (Hands On)
+- Structured in Weekly topics with corresponding Assignments
 
 --
 
 - Emphasis on open and reproducible science
-
-
---
-
-- Collaborative based education model
-Variable backgrounds of students
-
-
---
-
-- Mash-up of Seminar, Workshop, Online Course...
-
---
-
-- Very Active Learning
-
---
-
-- _Problem Solving_
-
-
----
-
-class: center
-
-# Important
-
---
-
-- ## You ask questions (_submit issues_)
-- ## Come prepared (Read ahead `cat | >`)
-
 
 
 
@@ -65,20 +34,27 @@ class: center
 
 --
 
-- How to operate at the command-line
+- Understand how to navigate a computer file system
 
 --
 
-- How to install and run common bioinformatic software
+- Create spreadsheets using proper formatting for downstream analysis
 
 --
 
-- Approaches to deal with large data     
-    (_most of this is just moving files_)
+- Write simple computer programs in R
 
 --
 
-- Publish reproducible data analyses products
+- Automate data analysis
+
+--
+
+- Apply these tools to address biological questions
+
+--
+
+- Apply general data management and analysis concepts to other programming languages
 
 
 
@@ -89,19 +65,15 @@ class: center
 
 --
 
-- Biology
+- Syllabus including course structure
 
 --
 
-- Course Framework / Logistics
+- Student experiences in data science
 
 --
 
-- Getting prepared for success
-
---
-
-- GitHub
+- Computer Set-up
 
 
 
