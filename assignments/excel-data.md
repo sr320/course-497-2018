@@ -10,7 +10,7 @@ exercises: ['Exercise Template', 'Exercise Template']
 
 > Following this assignment students should be able to:
 >
-> - Insert objective 1
+> - Insert objective IS THIS IT
 > - Insert objective 2
 > - Insert objective 3
 
