@@ -119,13 +119,10 @@ experience suggests that students who regularly miss class struggle to learn the
 material.
 
 
-### Quiz/Exam Policy
-
-
 
 ### Make-up policy
 
-Late assignments will be docked 50% and will not be accepted more than 48 hours
+Late assignments will be docked 50% and will not be accepted more than 24 hours
 late except in cases of genuine emergencies that can be documented by the
 student or in cases where this has been discussed and approved in advance. This
 policy is based on the idea that in order to learn how to use computers well,
@@ -141,7 +138,7 @@ quickly.
 
 ### Assignment policy
 
-Assignments are due  night  xxxxxx by 11:59 pm Pacific Time. Assignments should be
+Assignments are due Friday night by 11:59 pm Pacific Time. Assignments should be
 submitted via Canvas.
 
 
@@ -203,26 +200,10 @@ and I will do my best to help.**
 
 ## Grading Policies
 
-Grading for this course will revolve around a combination of assignments (75%)
-and an independent project (25%).
+Grading for this course will revolve around a combination of weekly assignments (80%)
+and weekly summary sheets (20%).
 
-There will be 11 equally weighted assignments. One problem from each assignment
-(selected at the instructors discretion after the assignments have been
-submitted) will receive a thorough code review and a detailed grade. Other
-problems will be graded as follows:
-
-* Produces the correct answer using the requested approach: 100%
-* Generally uses the right approach, but a minor mistake results in an incorrect
-    answer: 90%
-* Attempts to solve the problem and makes some progress using the core concept:
-    50%
-* Answer demonstrates a lack of understanding of the core concept: 0%
-
-Independent projects may focus on databases, programming, or a combination or
-the two.
-
-### Grading scale
-
+There will be 10 equally weighted assignments. These will be due on Canvas at 11:59 on Friday. Weekly summary sheets will be due as in class on Thursday.  
 
 
 
