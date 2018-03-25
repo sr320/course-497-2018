@@ -22,3 +22,8 @@ exercises: ['Exercise Template', 'Exercise Template']
 
 
 
+Link to Canvas Quiz
+
+
+
+Summary Sheets Due Thursday in Class
