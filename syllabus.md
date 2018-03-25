@@ -125,7 +125,7 @@ material.
 
 ### Make-up policy
 
-Late assignments will be docked 20% and will not be accepted more than 48 hours
+Late assignments will be docked 50% and will not be accepted more than 48 hours
 late except in cases of genuine emergencies that can be documented by the
 student or in cases where this has been discussed and approved in advance. This
 policy is based on the idea that in order to learn how to use computers well,
@@ -145,7 +145,7 @@ Assignments are due  night  xxxxxx by 11:59 pm Pacific Time. Assignments should 
 submitted via Canvas.
 
 
-### Course Technology (_PENDING_)
+### Course Technology
 
 Students are required to provide their own laptops and to install free and open
 source software on those laptops (see [Setup]({{ site.baseurl }}/computer-setup)
