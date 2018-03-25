@@ -1,11 +1,10 @@
 class: center, middle
 
-# FISH 546 
-## Bioinformatics for Environmental Sciences
+# FISH 497
+## Data Science for SAFS
 
-https://github.com/sr320/course-fish546-2016/wiki
+https://github.com/sr320/course-fish497-2018
 
-##genefish.info
 
 Steven Roberts
 @sr320
@@ -49,7 +48,7 @@ Variable backgrounds of students
 
 class: center
 
-# Important 
+# Important
 
 --
 
@@ -132,7 +131,7 @@ class: center
 - I will use a partially flipped model
 
 - Likewise you will be expected to make progress outside of class.
-- 
+-
 
 ---
 
