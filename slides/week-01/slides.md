@@ -73,29 +73,27 @@ Steven Roberts
 
 --
 
-- Computer Set-up
+- Computer Set-up & Questions
 
 --
 
 - Data Organization in Spreadsheets
 
- 
+
 
 
 ---
 ### Course Highlights
 
-![wiki](http://eagle.fish.washington.edu/cnidarian/skitch/Home_·_sr320_course-fish546-2016_Wiki_1D9C6972.png)
+![wiki](https://d.pr/i/na1JSM+)
 
 
 ---
 
 ### Textbook
 
-![book](http://eagle.fish.washington.edu/cnidarian/skitch/Bioinformatics_Data_Skills__Reproducible_and_Robust_Research_with_Open_Source_Tools__Vince_Buffalo__9781449367374__Amazon_com__Books_1D9C69E4.png)
+![book](http://r4ds.had.co.nz/cover.png)
 
-
-![toc](http://eagle.fish.washington.edu/cnidarian/skitch/Bioinformatics_Data_Skills_pdf__page_7_of_538__1D9C6A89.png)
 
 
 ---
