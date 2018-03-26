@@ -5,7 +5,10 @@ assignments: ['Data Organization in Spreadsheets', 'Navigating the Commandline',
 'Projects Structure', 'Version Control', 'Working with Spatial Data', 'Knitr', 'Jupyter Notebooks']
 ---
 
+
+<!--
 [Assignment submission & checklist]({{ site.baseurl }}/materials/turn-in-checklist)
+-->
 
 {% include assignments.html %}
 
