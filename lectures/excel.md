@@ -5,8 +5,5 @@ title: Data Organization in Spreadsheets
 language: Excel
 ---
 
-Insert Markdown and
 
-
-
-[links to materials file]({{ site.baseurl }}/materials/introduction)
+[Slidedeck](https://sr320.github.io/course-fish497-2018/slides/week-01/index.html)
