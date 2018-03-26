@@ -94,6 +94,13 @@ Steven Roberts
 
 ![book](http://r4ds.had.co.nz/cover.png)
 
+---
+class: center, middle
+
+### Communication
+
+Slack
+
 
 
 ---
@@ -105,50 +112,36 @@ Steven Roberts
 - I will use a partially flipped model
 
 - Likewise you will be expected to make progress outside of class.
--
 
----
+--
 
+- Tuesday will be partial content delivery
 
-
-### Lets Review some Biology!
-
----
-
-### Course Website
+- Thursday all hands on
 
 
 ---
+
+
 
 ### End of this week
 
 --
 
-- GitHub Account, Install Local GitHub client
+- Thursday AM - Summary Sheet
 
 --
 
-- Bash Installed (able to perform tutorial Tuesday)
+- Assignment completed (based on readings and exercises)
+- this includes signing into Slack group
 
 --
 
-- Quiz
+- Computer set-up with Bash & R
 
 --
 
 - Read (for this week and _next_)
 
---
-
-- Become familiar with Markdown
-
---
-
-- Install good Text Editor
-
---
-
-- Install good Markdown Editor     
-(online options available)
 
 ---
