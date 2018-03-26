@@ -24,7 +24,7 @@ exercises: ['Exercise Template', 'Exercise Template']
 <!-- End of Assignments Template - Be sure to keep the include statements -->
 
 
-[Week 1 "Quiz" on Canvas](https://canvas.uw.edu/courses/1131545/quizzes/1033881)
+## [Week 1 "Quiz" on Canvas](https://canvas.uw.edu/courses/1131545/quizzes/1033881)
 
 
 Summary Sheets Due Thursday in Class
