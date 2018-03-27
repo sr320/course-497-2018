@@ -7,4 +7,4 @@ language: Bash
 
 
 
-- Insert Markdown [and links to readings](https://what-if.xkcd.com/76/)
+- [Introducing the Shell](http://swcarpentry.github.io/shell-novice/01-intro/)
