@@ -8,7 +8,7 @@ structure, navigating the commandline, and programming for data manipulation, an
 Additional lessons are added from Software Carpentry and Data Carpentry.
 
 This class meets 2 times a week.
->Tuesdays, 1-3, 222 FSH 213     
+>Tuesdays, 1-3, FSH 213     
 >Thursdays, 9:30-11, FSH 213
 
 See the sidebar to access the syllabus and schedule.
