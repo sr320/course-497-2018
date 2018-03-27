@@ -139,9 +139,7 @@ Slack
 
 - Computer set-up with Bash & R
 
---
 
-- Read (for this week and _next_)
 
 
 ---
