@@ -79,9 +79,9 @@ Steven Roberts
 
 
 ---
-### Course Highlights
+### What does it look like?
 
-![wiki](https://d.pr/i/na1JSM+)
+![prompt](https://d.pr/i/ROcJr9+)
 
 
 ---
