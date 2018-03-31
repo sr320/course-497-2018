@@ -79,10 +79,10 @@ Steven Roberts
 
 
 ---
-### What does it look like?
+### What does it look like? new
 
 
-<img src="https://d.pr/i/ROcJr9+" alt="prompt" height="50%">
+<img src="https://d.pr/i/ROcJr9+" alt="prompt" height="10%">
 
 
 
