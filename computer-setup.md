@@ -40,11 +40,50 @@ from [Software Carpentry Lesson](https://github.com/swcarpentry/shell-novice/blo
 >
 > ### Windows
 > Computers with Windows operating systems do not automatically have a Unix Shell program installed.
-> In this lesson, we encourage you to use an emulator included in Git for Windows,
+> In this course, we encourage you to use an emulator included in [Git for Windows](https://gitforwindows.org/),
 > which gives you access to both Bash shell commands and Git.
-> If you are attending a SWC session, it is likely you have already received instructions on how to install Git for Windows.
 >
 > Once installed, you can open a terminal by running the program Git Bash from the Windows start menu.
+
+# Setting up Bioinformatic Environment in Windows
+
+I installed Windows 7 (64-bit) to mimic this  environment for teaching.
+
+
+## Git for Windows
+Based on Software Carpentry recommendations will ...
+
+>Important: on the 6th page of the installation wizard (the page titled `Configuring the terminal emulator...`) select `Use Windows' default console window`. If you forgot to do this programs that you need for the workshop will not work properly. If this happens rerun the installer and select the appropriate option. This will provide you with both Git and Bash in the Git Bash program.
+
+
+<img src="http://eagle.fish.washington.edu/cnidarian/skitch/Git_for_Windows_-_Windows_Internet_Explorer_1BB99C85.png" alt="Git_for_Windows_-_Windows_Internet_Explorer_1BB99C85.png"/>
+
+---
+
+<img src="http://eagle.fish.washington.edu/cnidarian/skitch/Release_Git_for_Windows_2_5_3_·_git-for-windows_git_·_GitHub_-_Google_Chrome_1BB99DAD.png" alt="Release_Git_for_Windows_2_5_3_·_git-for-windows_git_·_GitHub_-_Google_Chrome_1BB99DAD.png"/>
+
+---
+
+I left everything as default during installation except ....
+<img src="http://eagle.fish.washington.edu/cnidarian/skitch/Git_2_5_3_Setup_1BB99E76.png" alt="Git_2_5_3_Setup_1BB99E76.png"/>
+
+Make sure to select *Use Windows default console window*
+
+
+---
+
+Play around...
+From start menu selected Git Bash.
+It is not pretty, but `pwd`, `ls`, work
+
+<img src="http://eagle.fish.washington.edu/cnidarian/skitch/MINGW64__c_Users_sr320_Desktop_1BB99F45.png" alt="MINGW64__c_Users_sr320_Desktop_1BB99F45.png"/>
+
+---
+
+
+
+
+
 >
 > Other solutions are available for running Bash commands on Windows systems.
 > There is now a Bash shell command-line tool available for Windows 10.
