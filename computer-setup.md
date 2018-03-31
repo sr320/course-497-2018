@@ -45,13 +45,11 @@ from [Software Carpentry Lesson](https://github.com/swcarpentry/shell-novice/blo
 >
 > Once installed, you can open a terminal by running the program Git Bash from the Windows start menu.
 
-# Setting up Bioinformatic Environment in Windows
 
-I installed Windows 7 (64-bit) to mimic this  environment for teaching.
+*Here I installed Git for Windows on Windows 7 (64-bit)*
 
 
 ## Git for Windows
-Based on Software Carpentry recommendations will ...
 
 >Important: on the 6th page of the installation wizard (the page titled `Configuring the terminal emulator...`) select `Use Windows' default console window`. If you forgot to do this programs that you need for the workshop will not work properly. If this happens rerun the installer and select the appropriate option. This will provide you with both Git and Bash in the Git Bash program.
 
