@@ -61,37 +61,25 @@ Steven Roberts
 
 --
 
-- Syllabus including course structure
+- Logistics
 
 --
 
-- Student experiences in data science
+- Making sure everyone has bash terminal
 
 --
 
-- Computer Set-up & Questions
+- Working through some exercises so everyone is comfortable with the assignment.
 
---
-
-- Data Organization in Spreadsheets
 
 
 
 
 ---
-### What does it look like? new
+### What does it look like? 
 
 
-<img src="https://d.pr/i/ROcJr9+" alt="prompt" height=200>
-
-
-
----
-### What does it look like?
-
-![prompt](https://d.pr/i/ROcJr9+)
-
-<img src="https://d.pr/i/ROcJr9+" alt="prompt" height="50%">
+<img src="https://d.pr/i/ROcJr9+" alt="prompt" height=400>
 
 
 
@@ -112,6 +100,12 @@ ls path prints a listing of a specific file or directory; ls on its own lists th
 
 pwd prints the user’s current working directory.
 
+
+
+---
+
+### More key Points
+
 whoami shows the user’s current identity.
 
 / on its own is the root directory of the whole file system.
@@ -125,6 +119,7 @@ Directory names in a path are separated with / on Unix, but \\ on Windows.
 .. means ‘the directory above the current one’; . on its own means ‘the current directory’.
 
 Most files’ names are something.extension. The extension isn’t required, and doesn’t guarantee anything, but is normally used to indicate the type of data in the file.
+
 ---
 
 
@@ -138,11 +133,10 @@ Most files’ names are something.extension. The extension isn’t required, and
 --
 
 - Assignment completed (based on readings and exercises)
-- this includes signing into Slack group
 
 --
 
-- Computer set-up with Bash & R
+- Computer set-up with R
 
 
 
