@@ -82,7 +82,7 @@ Steven Roberts
 ### What does it look like? new
 
 
-<img src="https://d.pr/i/ROcJr9+" alt="prompt" height="10%">
+<img src="https://d.pr/i/ROcJr9+" alt="prompt" height=200>
 
 
 
@@ -98,36 +98,33 @@ Steven Roberts
 
 ---
 
-### Textbook
+### Key Points
 
-![book](http://r4ds.had.co.nz/cover.png)
+The file system is responsible for managing information on the disk.
 
----
-class: center, middle
+Information is stored in files, which are stored in directories (folders).
 
-### Communication
+Directories can also store other directories, which forms a directory tree.
 
-Slack
+cd path changes the current working directory.
 
+ls path prints a listing of a specific file or directory; ls on its own lists the current working directory.
 
+pwd prints the user’s current working directory.
 
----
+whoami shows the user’s current identity.
 
-### Class time
+/ on its own is the root directory of the whole file system.
 
+A relative path specifies a location starting from the current location.
 
+An absolute path specifies a location from the root of the file system.
 
-- I will use a partially flipped model
+Directory names in a path are separated with / on Unix, but \\ on Windows.
 
-- Likewise you will be expected to make progress outside of class.
+.. means ‘the directory above the current one’; . on its own means ‘the current directory’.
 
---
-
-- Tuesday will be partial content delivery
-
-- Thursday all hands on
-
-
+Most files’ names are something.extension. The extension isn’t required, and doesn’t guarantee anything, but is normally used to indicate the type of data in the file.
 ---
 
 
