@@ -81,7 +81,19 @@ Steven Roberts
 ---
 ### What does it look like?
 
+
+<img src="https://d.pr/i/ROcJr9+" alt="prompt" height="50%">
+
+
+
+---
+### What does it look like?
+
 ![prompt](https://d.pr/i/ROcJr9+)
+
+<img src="https://d.pr/i/ROcJr9+" alt="prompt" height="50%">
+
+
 
 
 ---
