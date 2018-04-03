@@ -10,6 +10,32 @@ https://sr320.github.io/course-fish497-2018/
 Steven Roberts
 
 
+
+---
+
+### Last Week 
+--
+
+- Advantages of Microsoft Excel
+
+--
+
+- Common Issues with using Excel
+
+--
+
+- How might your interaction with Excel change going forward?
+
+
+--
+
+- Any questions about last week?
+
+
+
+
+
+
 ---
 
 ### This week 
