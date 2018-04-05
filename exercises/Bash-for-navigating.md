@@ -261,7 +261,8 @@ rather than from the root of the file system.
 
 -->
 
-##absolute path
+## absolute path
+
 If we run `ls -F /data` (*with* a leading slash) we get a different answer,
 because `/data` is an **absolute path**:
 
@@ -279,7 +280,7 @@ network.cfg
 
 
 
-The leading `/` tells the computer to follow the path from the root of the filesystem,
+The leading `/` ( or possibly `/c/` if you are using Git Bash on Windows) tells the computer to follow the path from the root of the filesystem,
 so it always refers to exactly one directory,
 no matter where we are when we run the command.
 
@@ -478,10 +479,10 @@ and we will see it in many other tools as we go on.
 * `/` on its own is the root directory of the whole filesystem.
 * A relative path specifies a location starting from the current location.
 * An absolute path specifies a location from the root of the filesystem.
-* Directory names in a path are separated with '/' on Unix, but '\' on Windows.
-* '..' means "the directory above the current one"; '.' on its own means "the current directory".
+* Directory names in a path are separated with `/` on Unix, but `\` on Windows.
+* `..` means "the directory above the current one"; `.` on its own means "the current directory".
 * Most files' names are `something.extension`. The extension isn't required, and doesn't guarantee anything, but is normally used to indicate the type of data in the file.
-* Most commands take options (flags) which begin with a '-'.
+* Most commands take options (flags) which begin with a `-`.
 
 <!--
 
@@ -791,7 +792,7 @@ Let's go into that directory with `cd` and run the command `wc *.pdb`. `wc` is t
 ### Wildcards
 `*` is a [wildcard][4]. It matches zero or more characters, so `*.pdb` matches `ethane.pdb`, `propane.pdb`, and so on. On the other hand, `p*.pdb` only matches `pentane.pdb` and `propane.pdb`, because the 'p' at the front only matches itself.
 
- `?` is also a wildcard, but it only matches a single character. This means that `p?.pdb` matches `pi.pdb` or `p5.pdb`, but not `propane.pdb`. We can use any number of wildcards at a time: for example, `p*.p?*` matches anything that starts with a 'p' and ends with '.', 'p', and at least one more character (since the '?' has to match one character, and the final '*' can match any number of characters). Thus, `p*.p?*` would match `preferred.practice`, and even `p.pi` (since the first '*' can match no characters at all), but not `quality.practice` (doesn't start with 'p') or `preferred.p` (there isn't at least one character after the '.p').
+ `?` is also a wildcard, but it only matches a single character. This means that `p?.pdb` matches `pi.pdb` or `p5.pdb`, but not `propane.pdb`. We can use any number of wildcards at a time: for example, `p*.p?*` matches anything that starts with a  'p' and ends with '.', 'p', and at least one more character (since the '?' has to match one character, and the final `*` can match any number of characters). Thus, `p*.p?*` would match `preferred.practice`, and even `p.pi` (since the first `*` can match no characters at all), but not `quality.practice` (doesn't start with 'p') or `preferred.p` (there isn't at least one character after the '.p').
 
 When the shell sees a wildcard, it expands the wildcard to create a list of matching filenames _before_ running the command that was asked for. This means that commands like `wc` and `ls` never see the wildcard characters, just what those wildcards matched. This is another example of orthogonal design.
 
