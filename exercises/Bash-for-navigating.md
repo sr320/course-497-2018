@@ -261,7 +261,8 @@ rather than from the root of the file system.
 
 -->
 
-##absolute path
+## absolute path
+
 If we run `ls -F /data` (*with* a leading slash) we get a different answer,
 because `/data` is an **absolute path**:
 
