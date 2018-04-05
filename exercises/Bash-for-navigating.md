@@ -809,7 +809,7 @@ If we run `wc -l` instead of just `wc`, the output shows only the number of line
 
 We can also use `-w` to get only the number of words, or `-c` to get only the number of characters.
 
-##redirect
+## redirect
 Which of these files is shortest? It's an easy question to answer when there are only six files, but what if there were 6000? Our first step toward a solution is to run the command:
 
     $ wc -l *.pdb > lengths
@@ -819,6 +819,8 @@ The `>` tells the shell to [redirect][5] the command's output to a file instead 
     $ ls lengths
 
     lengths
+    
+    
 ## cat
 We can now send the content of `lengths` to the screen using `cat lengths`. `cat` stands for "concatenate": it prints the contents of files one after another. There's only one file in this case, so `cat` just shows us what it contains:
 
@@ -831,6 +833,7 @@ We can now send the content of `lengths` to the screen using `cat lengths`. `cat
       21  pentane.pdb
       15  propane.pdb
      107  total
+
 ## sort
 Now let's use the `sort` command to sort its contents. We will also use the -n flag to specify that the sort is numerical instead of alphabetical. This does _not_ change the file; instead, it sends the sorted result to the screen:
 
