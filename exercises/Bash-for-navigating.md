@@ -280,7 +280,7 @@ network.cfg
 
 
 
-The leading `/` tells the computer to follow the path from the root of the filesystem,
+The leading `/` ( or possibly `/c/` if you are using Git Bash on Windows) tells the computer to follow the path from the root of the filesystem,
 so it always refers to exactly one directory,
 no matter where we are when we run the command.
 
