@@ -5,9 +5,6 @@ title: Introduction to R
 language: R
 ---
 
-> Remind students to install R and RStudio.
-
-> Have students open RStudio and check to see if console "sees" R.
 
 ### R
 
@@ -20,10 +17,10 @@ language: R
 * IDE - Integrated Development Environment
     * Interpreter/Console
     * Text editor
-        * object highlighting 
+        * object highlighting
         * information about problems with code
         * `tab` key autocompletes
-            * Let the computer do repetitious work. 
+            * Let the computer do repetitious work.
             * It's easier and with fewer mistakes.
     * Environment/History
     * Project management
@@ -46,23 +43,12 @@ language: R
 4 * 2 / 3
 ```
 
-* `Source` vs `Source with Echo`
 
-> Create notes R script, put in new folder
-
-### Types
-
-* All values have types
-
-```
-str(2)
-str('hello world')
-```
 
 ### Variables
 
 * A variable is a name that has a value associated with it
-    * Assign using `<-` or `=`
+    * Assign using `<-`
 
 ```
 weight <- 26
@@ -89,7 +75,7 @@ weight
 * Comment before each problem and each sub-problem
 
 ```
-# Problem 1
+# Exercise 1
 
 # 1.1
 2 + 2
@@ -144,4 +130,3 @@ pi_approx
 ```
 
 > Do [Exercise 4 - Built-in Functions]({{ site.baseurl }}/exercises/Functions-built-in-functions-R/)
-
