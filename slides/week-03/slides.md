@@ -113,10 +113,10 @@ Steven Roberts
 
 - Start RStudio
 - Under the File menu, click on New project, choose New directory, then New project
-- Enter a name for this new folder (or “directory”), and choose a convenient location for it. This will be your working directory (e.g., ~/week3)
+- Enter a name for this new folder (or “directory”), and choose a convenient location for it. This will be your working directory (e.g., ~/fish497-w3)
 - Click on Create project
-- Download the [code handout](http://www.datacarpentry.org/R-ecology-lesson/code-handout.R), place it in your working directory and rename it (e.g.,  data-carpentry-script.R).
-- Under the Files tab on the right of the screen, click on New Folder and create a folder named data within your newly created working directory (e.g., ~/data-carpentry/data)
+- Download the [code handout](http://www.datacarpentry.org/R-ecology-lesson/code-handout.R), place it in your working directory and rename it (e.g.,  code-script.R).
+- Under the Files tab on the right of the screen, click on New Folder and create a folder named data within your newly created working directory (e.g., ~/fish497-w3/data)
 
 ---
 
@@ -129,6 +129,33 @@ Steven Roberts
 
 
 ---
+
+### Intro to R - Learning Objectives
+
+- Define the following terms as they relate to R: object, assign, call, function, arguments, options.
+- Assign values to variables in R.
+- Learn how to name objects
+- Use comments to inform script.
+- Solve simple arithmetic operations in R.
+- Call functions and use arguments to change their default options.
+- Inspect the content of vectors and manipulate their content.
+- Subset and extract values from vectors.
+- Analyze vectors with missing data.
+
+
+---
+
+### Creating objects in R
+
+You can get output from R simply by typing math in the console:
+
+```
+3 + 5
+12 / 7
+```
+
+
+
 
 ### More Key Points
 
