@@ -4,7 +4,7 @@ element: reading
 title: Introduction to R and RStudio
 language: R
 ---
-   
+
 * Topics
 
   * R & RStudio

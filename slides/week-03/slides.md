@@ -71,12 +71,6 @@ Steven Roberts
 
 - Use the built-in RStudio help interface to search for more information on R functions.
 
---
-
-- Demonstrate how to provide sufficient information for troubleshooting with the R user community.
-
---
-
 
 
 
