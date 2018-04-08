@@ -193,28 +193,73 @@ round(3.14159, digits = 2)
 
 ---
 
+### Objects vs. variables
+
+What are known as objects in R are known as variables in many other programming languages. Depending on the context, object and  variable can have drastically different meanings. However, in this lesson, the two words are used synonymously
+
+---
+
+class: center, middle
+
+### Data Structures
+
+---
+
+### Vectors and data types
+
+
+A vector is the most common and basic data type in R, and is pretty much the workhorse of R. A vector is composed by a series of values, which can be either numbers or characters. We can assign a series of values to a vector using the c() function. For example we can create a vector of animal weights and assign it to a new object weight_g:
+```
+weight_g <- c(50, 60, 65, 82)
+weight_g
+```
+
+
+---
+
+### Subsetting Vectors
+
+If we want to extract one or several values from a vector, we must provide one or several indices in square brackets. For instance:
+
+```
+animals <- c("mouse", "rat", "dog", "cat")
+animals[2]
+```
+
+```
+more_animals <- animals[c(1, 2, 3, 2, 1, 4)]
+more_animals
+```
+
+---
+### Missing Data
+
+As R was designed to analyze datasets, it includes the concept of missing data (which is uncommon in other programming languages). Missing data are represented in vectors as NA.
+
+```
+heights <- c(2, 4, 4, NA, 6)
+mean(heights)
+max(heights)
+mean(heights, na.rm = TRUE)
+max(heights, na.rm = TRUE)
+```
+---
+
+
+### Starting with data: Data frames
+
+- Describe what a data frame is.
+- Load external data from a .csv file into a data frame.
+- Summarize the contents of a data frame.
+- Manipulate categorical data.
+- Change how character strings are handled in a data frame.
+- Format dates.
 
 
 
 ---
 
-### More Key Points
 
-`whoami` shows the user’s current identity.
-
-`/` on its own is the root directory of the whole file system.
-
-A relative path specifies a location starting from the current location.
-
-An absolute path specifies a location from the root of the file system.
-
-Directory names in a path are separated with `/` on Unix, but `\\` on Windows.
-
-`..` means ‘the directory above the current one’; `.` on its own means ‘the current directory’.
-
-Most files’ names are `something.extension`. The extension isn’t required, and doesn’t guarantee anything, but is normally used to indicate the type of data in the file.
-
----
 
 
 
