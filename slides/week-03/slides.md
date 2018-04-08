@@ -154,8 +154,49 @@ You can get output from R simply by typing math in the console:
 12 / 7
 ```
 
+However, to do useful and interesting things, we need to assign values to objects. To create an object, we need to give it a name followed by the assignment operator <-, and the value we want to give it:
+
+```
+weight_kg <- 55
+```
+
+tip
+>In RStudio, typing Alt + - (push Alt at the same time as the - key) will write <- in a single keystroke in a PC, while typing Option + - (push Option at the same time as the - key) does the same in a Mac.
+
+```
+2.2 * weight_kg
+```
+
+---
 
 
+### Functions and their arguments
+
+```
+b <- sqrt(a)
+```
+
+Here, the value of `a` is given to the `sqrt()` function, the `sqrt()` function calculates the square root, and returns the value which is then assigned to variable`b`. This function is very simple, because it takes just one argument.
+
+
+```
+round(3.14159)
+```
+
+```
+args(round)
+```
+
+```
+round(3.14159, digits = 2)
+```
+
+---
+
+
+
+
+---
 
 ### More Key Points
 
