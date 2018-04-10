@@ -22,4 +22,4 @@ language: R
   * [Starting with data](http://www.datacarpentry.org/R-ecology-lesson/02-starting-with-data.html)
   * [Vector Reference](http://www.r-tutor.com/r-introduction/vector) (*Read links at bottom*)
   * [Data Frame Reference](http://www.r-tutor.com/r-introduction/data-frame)
-  * [R4DS Chapter 2](http://r4ds.had.co.nz/)
+  * [R4DS Chapter 4 Workflow: basics](http://r4ds.had.co.nz/)
