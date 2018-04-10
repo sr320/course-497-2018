@@ -71,12 +71,6 @@ Steven Roberts
 
 - Use the built-in RStudio help interface to search for more information on R functions.
 
---
-
-- Demonstrate how to provide sufficient information for troubleshooting with the R user community.
-
---
-
 
 
 
@@ -113,10 +107,10 @@ Steven Roberts
 
 - Start RStudio
 - Under the File menu, click on New project, choose New directory, then New project
-- Enter a name for this new folder (or “directory”), and choose a convenient location for it. This will be your working directory (e.g., ~/week3)
+- Enter a name for this new folder (or “directory”), and choose a convenient location for it. This will be your working directory (e.g., ~/fish497-w3)
 - Click on Create project
-- Download the [code handout](http://www.datacarpentry.org/R-ecology-lesson/code-handout.R), place it in your working directory and rename it (e.g.,  data-carpentry-script.R).
-- Under the Files tab on the right of the screen, click on New Folder and create a folder named data within your newly created working directory (e.g., ~/data-carpentry/data)
+- Download the [code handout](http://www.datacarpentry.org/R-ecology-lesson/code-handout.R), place it in your working directory and rename it (e.g.,  code-script.R).
+- Under the Files tab on the right of the screen, click on New Folder and create a folder named data within your newly created working directory (e.g., ~/fish497-w3/data)
 
 ---
 
@@ -130,23 +124,136 @@ Steven Roberts
 
 ---
 
-### More Key Points
+### Intro to R - Learning Objectives
 
-`whoami` shows the user’s current identity.
+- Define the following terms as they relate to R: object, assign, call, function, arguments, options.
+- Assign values to variables in R.
+- Learn how to name objects
+- Use comments to inform script.
+- Solve simple arithmetic operations in R.
+- Call functions and use arguments to change their default options.
+- Inspect the content of vectors and manipulate their content.
+- Subset and extract values from vectors.
+- Analyze vectors with missing data.
 
-`/` on its own is the root directory of the whole file system.
-
-A relative path specifies a location starting from the current location.
-
-An absolute path specifies a location from the root of the file system.
-
-Directory names in a path are separated with `/` on Unix, but `\\` on Windows.
-
-`..` means ‘the directory above the current one’; `.` on its own means ‘the current directory’.
-
-Most files’ names are `something.extension`. The extension isn’t required, and doesn’t guarantee anything, but is normally used to indicate the type of data in the file.
 
 ---
+
+### Creating objects in R
+
+You can get output from R simply by typing math in the console:
+
+```
+3 + 5
+12 / 7
+```
+
+However, to do useful and interesting things, we need to assign values to objects. To create an object, we need to give it a name followed by the assignment operator <-, and the value we want to give it:
+
+```
+weight_kg <- 55
+```
+
+tip
+>In RStudio, typing Alt + - (push Alt at the same time as the - key) will write <- in a single keystroke in a PC, while typing Option + - (push Option at the same time as the - key) does the same in a Mac.
+
+```
+2.2 * weight_kg
+```
+
+---
+
+
+### Functions and their arguments
+
+```
+b <- sqrt(a)
+```
+
+Here, the value of `a` is given to the `sqrt()` function, the `sqrt()` function calculates the square root, and returns the value which is then assigned to variable`b`. This function is very simple, because it takes just one argument.
+
+
+```
+round(3.14159)
+```
+
+```
+args(round)
+```
+
+```
+round(3.14159, digits = 2)
+```
+
+---
+
+### Objects vs. variables
+
+What are known as objects in R are known as variables in many other programming languages. Depending on the context, object and  variable can have drastically different meanings. However, in this lesson, the two words are used synonymously
+
+---
+
+class: center, middle
+
+### Data Structures
+
+---
+
+### Vectors and data types
+
+
+A vector is the most common and basic data type in R, and is pretty much the workhorse of R. A vector is composed by a series of values, which can be either numbers or characters. We can assign a series of values to a vector using the c() function. For example we can create a vector of animal weights and assign it to a new object weight_g:
+```
+weight_g <- c(50, 60, 65, 82)
+weight_g
+```
+
+
+---
+
+### Subsetting Vectors
+
+If we want to extract one or several values from a vector, we must provide one or several indices in square brackets. For instance:
+
+```
+animals <- c("mouse", "rat", "dog", "cat")
+animals[2]
+```
+
+```
+more_animals <- animals[c(1, 2, 3, 2, 1, 4)]
+more_animals
+```
+
+---
+### Missing Data
+
+As R was designed to analyze datasets, it includes the concept of missing data (which is uncommon in other programming languages). Missing data are represented in vectors as NA.
+
+```
+heights <- c(2, 4, 4, NA, 6)
+mean(heights)
+max(heights)
+mean(heights, na.rm = TRUE)
+max(heights, na.rm = TRUE)
+```
+---
+
+
+### Starting with data: Data frames
+
+- Describe what a data frame is.
+- Load external data from a .csv file into a data frame.
+- Summarize the contents of a data frame.
+- Manipulate categorical data.
+- Change how character strings are handled in a data frame.
+- Format dates.
+
+
+
+---
+
+
 
 
 

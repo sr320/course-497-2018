@@ -1,0 +1,21 @@
+{
+    "debugBreakpointsState" : {
+        "breakpoints" : [
+            {
+                "editor_line_number" : 47,
+                "editor_state" : 1,
+                "function_name" : "toplevel",
+                "function_steps" : "",
+                "id" : 0,
+                "is_package_breakpoint" : false,
+                "is_pending_debug_completion" : false,
+                "line_number" : 47,
+                "needs_updated_steps" : true,
+                "package_name" : "",
+                "path" : "~/git-repos/course-fish497-2018/R-projects/fish497-01/scripts/Assignments.R",
+                "state" : 1,
+                "type" : 1
+            }
+        ]
+    }
+}

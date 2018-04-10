@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1523220537384.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3915172572",
+    "id" : "98485714",
+    "lastKnownWriteTime" : 1523283086,
+    "last_content_update" : 1523283086891,
+    "path" : "~/git-repos/course-fish497-2018/R-projects/fish497-01/scripts/Assignments.R",
+    "project_path" : "scripts/Assignments.R",
+    "properties" : {
+        "cursorPosition" : "80,0",
+        "scrollLine" : "67",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
