@@ -162,7 +162,6 @@ Most files’ names are `something.extension`. The extension isn’t required, a
 
 --
 
-- Computer set-up with R
 
 
 
