@@ -10,7 +10,7 @@ Gainesville, FL. We'll use some data from the
 [NOAA National Climatic Data Center](http://www.ncdc.noaa.gov/).
 
 Start by creating a `data` directory in the same directory as your homework
-scripts and then downloading [the data]({{ site.baseurl }}/data/gainesville-precip.csv) and saving it to this `data` directory.
+script(s) and then downloading [the data]({{ site.baseurl }}/data/gainesville-precip.csv) and saving it to this `data` directory.
 
 Each row of this data file is a year (from 1961-2013) and each column is a month
 (January - December).

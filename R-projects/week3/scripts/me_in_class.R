@@ -52,4 +52,34 @@ nrow(shrub_data)
 
 str(shrub_data)
 
-shrub_data
+
+shrub_data$length*width*height
+
+
+# Excercises
+
+# Shrub Volume Vector
+
+length <- c(2.2, 2.1, 2.7, 3.0, 3.1, 2.5, 1.9, 1.1, 3.5, 2.9)
+width <- c(1.3, 2.2, 1.5, 4.5, 3.1, 2.8, 1.8, 0.5, 2.0, 2.7)
+height <- c(9.6, 7.6, 2.2, 1.5, 4.0, 3.0, 4.5, 2.3, 7.5, 3.2)
+
+length*width*height
+
+sum(length*width*height)
+
+
+ #A vector of the height of shrubs with lengths greater than 2.5.
+
+height > 2.5 # will return logicals with TRUE for the indices that meet the condition
+
+## so we can use this to select only the values above 50
+height[height > 2.5]
+
+# Ex 9 - Shrub Volume Data Frame --
+#link to question - https://sr320.github.io/course-fish497-2018/exercises/Data-frames-shrub-volume-data-frame-R/
+  
+  
+shrub_data$length # returns all values in column length
+
+shrub_data$length*width*height #calculates volume of each shrub
