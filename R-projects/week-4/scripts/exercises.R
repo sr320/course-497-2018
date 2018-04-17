@@ -32,12 +32,30 @@ head(shrub_dim)
 
 Use dplyr to complete the remaining tasks.
 
-Select the data from the length column and print it out.
+#Select the data from the length column and print it out.
 
 select(shrub_dim, length)
 
 
 
-Select the data from the site and experiment columns and print it out.
-Filter the data for all of the plants with heights greater than 5 and print out the result.
-Create a new data frame called shrub_data_w_vols that includes all of the original data and a new column containing the volumes, and display it.
+#Select the data from the site and experiment columns and print it out.
+
+select(shrub_dim, site, experiment)
+
+
+
+#Filter the data for all of the plants with heights greater than 5 and print out the result.
+
+shrub_dim
+
+filter(shrub_dim, height > 5)
+
+#Create a new data frame called shrub_data_w_vols that includes all of the original data and a new column containing the volumes, and display it.
+
+
+mutate(shrub_dim, volumes = length * width * height)
+
+
+
+#
+
