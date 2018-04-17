@@ -100,17 +100,56 @@ inner_join(shrub_dim, svtable, by = "experiment")
 
 #The following code is supposed to import the shrub volume data and calculate the average shrub volume for each site and, separately, for each experiment
 
-read.csv("data/shrub-volume-experiment.csv")
+shrub_data <- read.csv("data/shrub-volume-experiment.csv")
+
+shrub_data
+
 shrub_data %>%
   mutate(volume = length * width * height) %>%
   group_by(site) %>%
-  summarize(mean_volume = max(volume))
+  summarize(mean_volume = mean(volume))
 shrub_data %>%
   mutate(volume = length * width * height)
 group_by(experiment) %>%
   summarize(mean_volume = mean(volume))
-Fix the errors in the code so that it does what it’s supposed to
-Add a comment to the top of the code explaining what it does
-In a text file, discuss how you know that your fixed version of the code is right and how you would try to make sure it was right if the data file was thousands of lines long
+
+#Fix the errors in the code so that it does what it’s supposed to
+#Add a comment to the top of the code explaining what it does
+
+shrub_data %>%
+  mutate(volume = length * width * height) %>%
+  group_by(site) %>%
+  summarize(mean_volume = mean(volume))
+
+# A tibble: 4 × 2
+site mean_volume
+<int>       <dbl>
+  1     1    23.82600
+2     2    26.56333
+3     3    23.05167
+4     4    57.09600
+
+
+shrub_data %>%
+  mutate(volume = length * width * height) %>%
+  group_by(experiment) %>%
+  summarize(mean_volume = mean(volume))
+
+  
+# A tibble: 3 × 2
+experiment mean_volume
+<int>       <dbl>
+  1          1    22.03800
+2          2    53.80425
+3          3    22.06050
+
+
+
+
+
+
+
+
+#In a text file, discuss how you know that your fixed version of the code is right and how you would try to make sure it was right if the data file was thousands of lines long
 
 
