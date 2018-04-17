@@ -10,7 +10,6 @@ language: R
 > * download [`surveys.csv`](https://ndownloader.figshare.com/files/2292172).
 > * download [`species.csv`](https://ndownloader.figshare.com/files/3299483).
 > * Consider removing the `dplyr` package so you can demonstrate installing it.
->     * Linux users: you may not want to do this because the source install is slow
 
 ### Packages
 
@@ -25,7 +24,7 @@ language: R
 ### Basic `dplyr`
 
 * Modern data manipulation library for R
-* Does a lot of the same things we've learned to do in SQL.
+
 
 > * Start a new project (modeling good practice)
 
