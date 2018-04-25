@@ -17,6 +17,11 @@ filter(surveys, species_id == "DS")
 filter(surveys, species_id == "DS", year > 1995)
 filter(surveys, species_id == "DS" | species_id == "DM")
 
+surveys_by_species <- group_by(surveys, species_id)
+
+surveys_by_species
+
+
 
 ---
 read.csv("data/")  

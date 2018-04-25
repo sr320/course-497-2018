@@ -4,7 +4,7 @@ element: notes
 title: Graphing using ggplot
 language: R
 ---
- 
+
 > Get familiarized with [metadata](http://www.esapubs.org/archive/ecol/E095/064/metadata.php) - *Acacia drepanolobium* Surveys
 
 ### Data
@@ -68,7 +68,7 @@ ggplot(acacia, aes(x = CIRC, y = HEIGHT)) +
        title = "Acacia Survey at UHURU")
 ```
 
-> Do [Exercise 2 - Mass vs Metabolism]({{ site.baseurl }}/exercises/Graphing-mass-vs-metabolism-R).
+> Do [Exercise 1 - Mass vs Metabolism]({{ site.baseurl }}/exercises/Graphing-mass-vs-metabolism-R).
 
 ### Grouping
 
@@ -90,7 +90,7 @@ ggplot(acacia, aes(x = CIRC, y = HEIGHT)) +
 
 * Where are all the acacia in the open plots? (eaten?)
 
-> Do Tasks 1-4 in [Exercise 3 - Adult vs Newborn Size]({{ site.baseurl }}/exercises/Graphing-adult-vs-newborn-size-R).
+> Do Tasks 1-4 in [Exercise 2 - Adult vs Newborn Size]({{ site.baseurl }}/exercises/Graphing-adult-vs-newborn-size-R).
 
 ### Layers
 
@@ -141,7 +141,7 @@ ggplot(mapping = aes(x = CIRC, y = HEIGHT)) +
   labs(x = "Circumference [cm]", y = "Height [m]")
 ```
 
-> Do Task 5 in [Exercise 3 - Adult vs Newborn Size]({{ site.baseurl }}/exercises/Graphing-adult-vs-newborn-size-R).
+> Do Task 5 in [Exercise 2 - Adult vs Newborn Size]({{ site.baseurl }}/exercises/Graphing-adult-vs-newborn-size-R).
 
 ### Statistical transformations
 

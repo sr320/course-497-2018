@@ -3,34 +3,37 @@
 
 #Dr. Granger is interested in studying the factors controlling the size and carbon storage of shrubs. This research is part of a larger area of research trying to understand carbon storage by plants. She has conducted a small preliminary experiment looking at the effect of three different treatments on shrub volume at four different locations. She has placed the data file on the web for you to download:
   
-  shrub dimensions data
-Download this into your data folder and get familiar with the data by importing the shrub dimensions data using read.csv() and then:
+#   shrub dimensions data
+# Download this into your data folder and get familiar with the data by importing the shrub dimensions data using read.csv() and then:
   
+library(dplyr)
+
   
+   
 shrub_dim <- read.csv("data/shrub-volume-experiment.csv")  
   
   
   
-  Check the column names in the data using the function names().
+  # Check the column names in the data using the function names().
   
 
 names(shrub_dim)  
   
   
-Use str() to show the structure of the data frame and its individual columns.
+# Use str() to show the structure of the data frame and its individual columns.
 
 str(shrub_dim)
 
 
 
-Print out the first few rows of the data using the function head().
+# Print out the first few rows of the data using the function head().
 
 head(shrub_dim)
 
 
 
 
-Use dplyr to complete the remaining tasks.
+# Use dplyr to complete the remaining tasks.
 
 #Select the data from the length column and print it out.
 
@@ -121,13 +124,13 @@ shrub_data %>%
   group_by(site) %>%
   summarize(mean_volume = mean(volume))
 
-# A tibble: 4 × 2
-site mean_volume
-<int>       <dbl>
-  1     1    23.82600
-2     2    26.56333
-3     3    23.05167
-4     4    57.09600
+# # A tibble: 4 × 2
+# site mean_volume
+# <int>       <dbl>
+#   1     1    23.82600
+# 2     2    26.56333
+# 3     3    23.05167
+# 4     4    57.09600
 
 
 shrub_data %>%
@@ -136,12 +139,12 @@ shrub_data %>%
   summarize(mean_volume = mean(volume))
 
   
-# A tibble: 3 × 2
-experiment mean_volume
-<int>       <dbl>
-  1          1    22.03800
-2          2    53.80425
-3          3    22.06050
+# # A tibble: 3 × 2
+# experiment mean_volume
+# <int>       <dbl>
+#   1          1    22.03800
+# 2          2    53.80425
+# 3          3    22.06050
 
 
 
