@@ -3,7 +3,7 @@ layout: page
 element: assignment
 title: Projects Structure
 language: R
-exercises: ['Project Proposal']
+exercises: ['']
 ---
 
 #### Learning Objectives
@@ -15,3 +15,10 @@ exercises: ['Project Proposal']
 {% include reading.html %}
 
 {% include assignment.html %}
+
+
+#### Exercise
+
+Revise your Week 4 and Week 5 projects such that they adhere to the principles outlined in the this week's reading.
+
+Pay particular attention to the ability of your work to be Reproducible. That is, I should be able to run your code such that no errors occur.
