@@ -17,7 +17,7 @@ exercises: ['']
 {% include assignment.html %}
 
 
-#### Exercise
+#### 1 - Revising your Projects
 
 Revise your Week 4 and Week 5 projects such that they adhere to the principles outlined in the this week's reading.
 
