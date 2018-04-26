@@ -88,4 +88,82 @@ ggplot(Mammal_lif, aes(x = mass.g., y = newborn.g.)) +
   
   
   
- 
+#  -- Sexual Dimorphism Exploration --
+  
+avian <- read.csv("data/avian_ssd_jan07.txt", sep="\t", na.strings = c("-999", "-999.0"))
+
+
+
+
+ggplot(avian, aes(x = F_mass)) +
+  geom_histogram() +
+  labs(x = "Female Mass(g)")
+
+
+#A few really large masses dominate the histogram so create a log10 scaled version. Change the x axis label to "Female Mass(g)" and the color of the bars to blue (using the fill = "blue" argument).
+
+
+ggplot(avian, aes(x = F_mass)) +
+  geom_histogram(fill = "blue") +
+  scale_x_log10() +
+  labs(x = "Female Mass(g)")
+
+
+#Now let’s add the data for male birds as well. Create a single graph with histograms of both female and male body mass. Due to the way the data is structured you’ll need to add a 2nd geom_histogram() layer that specifies a new aesthetic. To make it possible to see both sets of bars you’ll need to make them transparent with the optional argument alpha = 0.3.
+
+
+ggplot() +
+  geom_histogram(data = avian, aes(x = M_mass), fill = "blue", alpha = 0.3) +
+  geom_histogram(data = avian, aes(x = F_mass), fill = "yellow", alpha = 0.3) +
+  scale_x_log10() +
+  labs(x = "Mass(g)")
+
+
+#These distributions seem about the same, but this is all birds together so it might be difficult to see any patterns. Use facet_wrap() to make one subplot for each family.
+
+ggplot() +
+  geom_histogram(data = avian, aes(x = M_mass), fill = "blue", alpha = 0.3) +
+  geom_histogram(data = avian, aes(x = F_mass), fill = "yellow", alpha = 0.3) +
+  scale_x_log10() +
+  facet_wrap(~Family) +
+  labs(x = "Mass(g)")
+
+
+#Make the same graph as in the last task, but for wing size instead of mass. Do you notice anything strange? If so, you may have gotten caught by the use of non-standard null values. If you already noticed and fixed this, Nice Work! If not, you can use the optional na.strings = c(“-999”, “-999.0”) argument in read.csv() to tell R what value(s) indicated nulls in a dataset.
+
+ggplot() +
+  geom_histogram(data = avian, aes(x = M_wing), fill = "blue", alpha = 0.3) +
+  geom_histogram(data = avian, aes(x = F_wing), fill = "yellow", alpha = 0.3) +
+  scale_x_log10() +
+  facet_wrap(~Family) +
+  labs(x = "Wing Size")
+
+
+#-- Sexual Dimorphism Data Manipulation --
+
+
+library(dplyr)
+
+
+large_n_families <- avian %>%
+  filter(!is.na(M_mass), !is.na(F_mass)) %>%
+  group_by(Family) %>%
+  summarize(num_species = n())
+
+large_n_families
+
+large_n_families <- avian %>%
+  filter(!is.na(M_mass), !is.na(F_mass)) %>%
+  group_by(Family) %>%
+  summarize(num_species = n())  %>%
+  filter(num_species > 25)
+
+
+large_n_families
+
+
+#Now join this with your original data to get the subset of your data with more than 25 species in each family. inner_join() only keeps rows where the joining field(s) occur in both tables, so since you’ve already removed families without a lot of species from large_n_families, they will be removed from the resulting data frame.
+
+
+myjoin <- inner_join(avian, large_n_families, by = "species_id")
+
