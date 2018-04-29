@@ -16,6 +16,7 @@ exercises: ['']
 
 {% include assignment.html %}
 
+### [Canvas Quiz](https://canvas.uw.edu/courses/1131545/quizzes/1043433)
 
 #### 1 - Revising your Projects
 
