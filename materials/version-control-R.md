@@ -3,18 +3,18 @@ layout: page
 element: notes
 title: Version Control
 language: R
---- 
+---
 
 > Before class
 >
 > * Remind students to setup a GitHub account and email the instructor their
->   username. 
-> * Setup class organization at Github. 
+>   username.
+> * Setup class organization at Github.
 > * Add students' username to organization with "create repo" permissions and
 >   respond with link to organization in email.
 
 > For class
-> 
+>
 > * Download [Gaeta_etal_CLC_data.csv](https://lter.limnology.wisc.edu/sites/default/files/Gaeta_etal_CLC_data.csv).
 > * Arrange to have a teaching partner attend class and `push` the following
 >   code for the 'Collaborating' demo.
@@ -30,8 +30,7 @@ ggplot(fish_data_cat, aes(x = scalelength, fill = length_cat)) +
 > > * [Like this?](http://www.phdcomics.com/comics/archive.php?comicid=1531)
 > > * [Or like this?](http://www.phdcomics.com/comics/archive.php?comicid=1323)
 
-> 
-> **Live coding demo parallels assignment.**
+
 
 ## Introduction
 
@@ -64,20 +63,19 @@ data files and code in a more manageable way.
 
 1. Navigate to Github in a web browser and login.
 2. Click the `+` at the upper right corner of the page and choose `New repository`.
-3. Choose the class organization (e.g., `dcsemester`) as the `Owner` of the
+3. Choose the class organization (e.g., `fish497-2018`) as the `Owner` of the
    repo.
 4. Fill in a `Repository name` that follows the form `FirstnameLastname`.
-5. Select `Private`.
-6. Select `Initialize this repository with a README`.
-7. Click `Create Repository`.
+5. Select `Initialize this repository with a README`.
+6. Click `Create Repository`.
 
 ### Connect to the Git repo in RStudio
 
 1. From new GitHub repository, click green `Clone or download` button ->
    Click the `Copy to clipboard` button.
 2. In RStudio, File -> New Project -> Version Control -> Git
-3. Paste copied URL in `Repository URL:`. 
-4. Leave `Project directory name:` blank; automatically given repo name. 
+3. Paste copied URL in `Repository URL:`.
+4. Leave `Project directory name:` blank; automatically given repo name.
 5. Choose where to `Create project as subdirectory of:`.
 6. Click `Create Project`.
 7. Check to make sure you have a `Git` tab in the upper right window.
@@ -91,9 +89,9 @@ data files and code in a more manageable way.
 
 * Download the data file [Gaeta_etal_CLC_data.csv](https://lter.limnology.wisc.edu/sites/default/files/Gaeta_etal_CLC_data.csv) to your project directory.
 * Git -> Select `Gaeta_etal_CLC_data.csv`.
-* Commit with message. 
+* Commit with message.
     * `Add fish size and growth rate data`
-* History: 
+* History:
     * One commit
     * Changes too large to see
 
@@ -105,13 +103,13 @@ data files and code in a more manageable way.
 fish_data = read.csv("Gaeta_etal_CLC_data.csv")
 ```
 
-* Save as `fish-analysis.R`. 
-* Git -> Select `fish-analysis.R`. 
+* Save as `fish-analysis.R`.
+* Git -> Select `fish-analysis.R`.
     * Changes in staged files will be included in next commit.
     * Can also see changes by selecting `Diff`
-* Commit with message. 
+* Commit with message.
     * `Start script comparing fish length and scale size`
-* History: 
+* History:
     * Two commits
     * See what changes were made to `fish-analysis.R`
 
@@ -124,7 +122,7 @@ fish_data = read.csv("Gaeta_etal_CLC_data.csv")
 
 ```
 library(dplyr)
-fish_data_cat = fish_data %>% 
+fish_data_cat = fish_data %>%
   mutate(length_cat = ifelse(length > 200, "big", "small"))
 ```
 
@@ -135,16 +133,16 @@ fish_data_cat = fish_data %>%
     * Check the box next to `fish-analysis.R`.
 * Commit with message.
     * `Add categorical fish length column`
-* History: 
-    * Three commits 
+* History:
+    * Three commits
     * Each `fish-analysis.R` commit shows the additions we made in
       that commit.
 
-* Modify this code in `fish-analysis.R` 
+* Modify this code in `fish-analysis.R`
     * Change category cut-off size
 
 ```
-fish_data_cat = fish_data %>% 
+fish_data_cat = fish_data %>%
   mutate(length_cat = ifelse(length > 300, "big", "small"))
 ```
 
@@ -167,7 +165,7 @@ fish_data_cat = fish_data %>%
 #### Experiment with impunity
 
 ```
-fish_data_cat = fish_data %>% 
+fish_data_cat = fish_data %>%
   mutate(length_cat = ifelse(length > 300, "large", "small"))
 ```
 
@@ -192,13 +190,12 @@ fish_data_cat = fish_data %>%
 * One of the big benefits of version control is easy collaboration.
 * To do this, we synchronize our local changes with a remote repository called
   `origin`.
-* Our remote repository is on GitHub. 
+* Our remote repository is on GitHub.
     * By far the most popular hosted version control site
     * Public and private hosted repositories
     * Private free for students and academics
 	* https://education.github.com/
-        * For the assignment, we're using private repositories that we made at
-          the beginning.
+      
 
 ### Push to a remote
 
@@ -243,7 +240,7 @@ ggplot(fish_data_cat, aes(x = scalelength, fill = length_cat)) +
 
 > Add collaborator local repo to diagram and `pull` arrow from `origin` to
 > locals.
- 
+
 * `Pull` the changes from the remote repo with the `Pull` button on the Git tab
 
 > Show updates to history following `Pull` and run code
@@ -257,5 +254,3 @@ ggplot(fish_data_cat, aes(x = scalelength, fill = length_cat)) +
 
 > Show an [example of a working repository]({{ site.github.repo }}) with
 > branches and forks. Navigate to pull requests.
-
-
