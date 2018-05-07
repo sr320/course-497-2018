@@ -185,7 +185,6 @@ fish_data_cat = fish_data %>%
 
 ## GitHub Remotes
 
-> Draw diagram to link local machine with GitHub `origin`.
 
 * So far we've worked with a local `Git` repository.
 * One of the big benefits of version control is easy collaboration.
@@ -196,7 +195,7 @@ fish_data_cat = fish_data %>%
     * Public and private hosted repositories
     * Private free for students and academics
 	* https://education.github.com/
-      
+
 
 ### Push to a remote
 
