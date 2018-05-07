@@ -201,7 +201,6 @@ fish_data_cat = fish_data %>%
 
 * `Push` sends your recent commits to the `origin` remote.
 
-> Draw push arrow on diagram on board from local to `origin`.
 
 * Before a `Push` your commits show in your local history but not on the remote.
 
@@ -216,7 +215,7 @@ fish_data_cat = fish_data %>%
 
 > Do [Exercise 5 - Pushing Changes]({{ site.baseurl }}/exercises/Version-control-basic-pushing-changes-R/).
 
-> Have students email a link to their repo to their instructor once they have
+> Have students slack a link to their repo to once they have
 > finished Pushing Changes
 >
 > The instructor should then commit the following code to their repo
