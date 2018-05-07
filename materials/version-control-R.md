@@ -32,6 +32,7 @@ ggplot(fish_data_cat, aes(x = scalelength, fill = length_cat)) +
 
 
 
+
 ## Introduction
 
 ### Motivation
