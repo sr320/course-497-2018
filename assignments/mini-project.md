@@ -3,7 +3,7 @@ layout: page
 element: assignment
 title: Mini Projects                
 language: R
-exercises: ['']
+exercises: ['Mini Projects']
 ---
 
 #### Learning Objectives
@@ -16,8 +16,12 @@ exercises: ['']
 
 {% include reading.html %}
 
+this is right after reading.html note
+
 {% include assignment.html %}
 
 <!-- End of Assignments Template - Be sure to keep the include statements -->
 
 ****
+
+This is beyond line
