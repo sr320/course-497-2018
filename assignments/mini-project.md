@@ -13,6 +13,8 @@ exercises: ['Mini Projects']
 > *   Better hone their skills in Collaboration
 > *   Apply fundamental aspects of `dplyr` and `ggplot` to a variety of data sets.
 > *   Write documentation that is readily understandable to peers
+> *   Effectively use Issues on GitHub.
+
 
 {% include reading.html %}
 
@@ -50,7 +52,6 @@ In the repository you created, begin to tackle the question you posed. Minimally
 In at least 3 other repositories created this week make a suggested R code edit that generates a) summary information of the given data set and b) a new plot or revision to current plot.
 
 ---
-
 
 **Exercise 6** _Optional_     
 At any time you have a question on how you might go about accomplishing a task in `R` create a new Issue in the given repository.
