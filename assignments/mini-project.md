@@ -28,6 +28,9 @@ Be sure to review Week 4 and Week 5 material to re-familiarize yourself with dpl
 
 ****
 
+### [Canvas Quiz](https://canvas.uw.edu/courses/1131545/quizzes/1045503/edit)
+
+
 **Exercise 1**    
 A few weeks ago you submitted a data set and associated question(s). Create a Github repository as we did this week with the inside of the class organization named "lastname-wordrelatedtodata". Include a script that reads in data locally or from url. In the Readme file describe the dataset and primary question you have regarding it.
 
