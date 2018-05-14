@@ -1,7 +1,7 @@
 ---
 layout: page
 element: assignment
-title: Mini Project                
+title: Mini Projects                
 language: R
 exercises: ['']
 ---
