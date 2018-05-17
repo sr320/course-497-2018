@@ -52,7 +52,7 @@ In the repository you created, begin to tackle the question you posed. Minimally
 ---
 
 **Exercise 5**      
-In at least 3 other repositories created this week make a suggested R code edit that generates a) summary information of the given data set and b) a new plot or revision to current plot.
+In at least 3 other repositories created this week make a suggested R code edit that generates a) summary information of the given data set and b) a new plot or revision to current plot. Please do this as an `Issue`. 
 
 ---
 
