@@ -1,8 +1,8 @@
 ---
 layout: page
 element: reading
-title: Version Control
+title: Knitr
 language: R
 ---
 
-* [Git basics in RStudio](http://nicercode.github.io/git/rstudio.html)
+* [R Markdown](http://r4ds.had.co.nz/r-markdown.html)
