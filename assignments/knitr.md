@@ -38,5 +38,5 @@ Continue working on updating your repo from last week, with an emphasis on gener
 **Exercise 2**    
 Create an R Markdown file in your repo that nicely formats your prose, code and plots.
 Be sure to include prose the briefly describes your process. Also include a footnote.
-Using knitr export the file in 3 formats and save in `output` directory. 
+Using knitr export the file to HTML and save in `output` directory.
 ---
