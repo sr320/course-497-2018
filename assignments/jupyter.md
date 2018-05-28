@@ -1,9 +1,9 @@
 ---
 layout: page
 element: assignment
-title: Jupyter Notebooks              
-language: Python, Bash, R
-exercises: ['Jupyter Notebooks']
+title: Tidyr              
+language: R
+exercises: ['Tidyr']
 ---
 
 #### Learning Objectives
