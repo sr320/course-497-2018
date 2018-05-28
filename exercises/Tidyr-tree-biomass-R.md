@@ -5,15 +5,15 @@ title: Tree Biomass
 language: R
 ---
 
-Estimating the total amount of biomass (*the total mass of all individuals*) 
-in forests is important for understanding the global carbon budget and how the 
-earth will respond to increases in carbon dioxide emissions. Measuring the mass 
-of whole trees is a major effort and requires destructive harvest of the tree. 
+Estimating the total amount of biomass (*the total mass of all individuals*)
+in forests is important for understanding the global carbon budget and how the
+earth will respond to increases in carbon dioxide emissions. Measuring the mass
+of whole trees is a major effort and requires destructive harvest of the tree.
 Fortunately, we can estimate the mass of a tree based on its diameter.
 
-There are lots of equations for estimating the mass of a tree from its diameter, 
-but one good option is the equation: 
-    
+There are lots of equations for estimating the mass of a tree from its diameter,
+but one good option is the equation:
+
 Mass = 0.124 * Diameter<sup>2.53</sup>
 
 where `Mass` is measured in kg of dry above-ground biomass and
@@ -32,13 +32,13 @@ up the data. You can have a look at
 [the metadata](http://esapubs.org/archive/ecol/E091/216/metadata.htm)
 to get familiar with the data structure.
 
-1. Use `tidyr` to `gather()` the raw data into rows for each measured stem. 
+1. Use `tidyr` to `gather()` the raw data into rows for each measured stem.
 2. Write a function that takes a vector of tree diameters as an argument and   
    returns a vector of tree masses.
 3. Stems are measured in girth (*or circumference*) rather than diameter.
    Write a function that takes a vector of circumferences as an argument
    and returns a vector of diameters (*circumference = pi \* diameter*).
-4. Use the two functions you've written to estimate the total biomass (*i.e., 
+4. Use the two functions you've written to estimate the total biomass (*i.e.,
    the sum of the masses*) of trees in this dataset and print the result to the
    screen.
 5. `separate()` the `SpCode` into `GenusCode` and `SpEpCode` and
