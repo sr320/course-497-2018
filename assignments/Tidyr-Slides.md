@@ -20,3 +20,21 @@ exercises: ['']
 <!-- End of Assignments Template - Be sure to keep the include statements -->
 
 ****
+### [Canvas Quiz](https://canvas.uw.edu/courses/1131545/quizzes/1047177)
+
+
+**Exercise 1**    
+Using tidyr, manipulate your dataset in at least one meaningful way.
+Include this in your slide presentation (see below)
+
+---
+
+**Exercise 2**    
+The primary activity this week will be generating slides! This is based on the Rmarkdown
+we worked on last week. Generate at least 5 slides. Slides should
+* describe data
+* show data
+* show code where you manipulate data in some fashion (hint: echo=true)
+* have at least 1 plot
+* include an image
+---
