@@ -2,7 +2,7 @@
 layout: page
 title: Assignment Schedule
 assignments: ['Data Organization in Spreadsheets', 'Navigating the Commandline', 'Introduction to R and RStudio', 'Working with Data', 'Data Visualization',
-'Projects Structure', 'Version Control', 'Mini Projects', 'Knitr', 'tidyr']
+'Projects Structure', 'Version Control', 'Mini Projects', 'Knitr', 'Tidyr']
 ---
 
 

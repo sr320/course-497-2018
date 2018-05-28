@@ -7,7 +7,7 @@ language: R
 
 * Topics
 
-  * `dplyr`
+  * `dplyr` (review)
   * `tidyr`
 
 * Readings
