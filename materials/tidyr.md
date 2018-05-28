@@ -1,19 +1,19 @@
 ---
 layout: page
 element: notes
-title: tidyr
-language: SQL
+title: Tidyr
+language: R
 ---
 
 ### Remember the five basic rules of database structure
 
-1. Order doesn’t matter 
+1. Order doesn’t matter
 2. No duplicate rows
 3. Every cell contains one value
 4. One column per type of information
 5. No redundant information
 
-### Restructure tables with messy data 
+### Restructure tables with messy data
 
 * Cells with multiple values break rule #3.
 * Redundant column information or cross-tabulated data breaks rule #4.
@@ -35,8 +35,8 @@ library(tidyr)
 
 ```
 genes_wide = data.frame(
-  name = c("A", "B", "C"), 
-  a = c("16-Y", "25-N", "13-Y"), 
+  name = c("A", "B", "C"),
+  a = c("16-Y", "25-N", "13-Y"),
   t = c("1-N", "12-Y", "31-Y")
 )
 ```
@@ -51,19 +51,19 @@ genes_wide = data.frame(
 
 * What do the values in the table represent?
     * `A`, `B`, and `C` are names of gene names
-    * `16-Y`, `1-N`, etc. represent: 
+    * `16-Y`, `1-N`, etc. represent:
         * Counts of bases `a` and `t`
         * If a particular sequence involving that base is present in the gene, `Y` or `N`
 
 > Ask students,
-> 
+>
 > * "What makes `genes_wide` messy?"
 > * "What are the variables in `genes_wide`?”
 
 * Tidy variables in `genes_wide`
-    * `name` 
+    * `name`
         * `A`, `B`, and `C`
-    * `base` 
+    * `base`
         * `a` and `t`
     * `base_counts`
         * count
@@ -82,7 +82,7 @@ genes_wide = data.frame(
     * Gets data in long format
 
 ```
-genes_long = genes_wide %>% 
+genes_long = genes_wide %>%
   gather(base, base_counts, a:t)
 ```
 
@@ -106,7 +106,7 @@ genes_long = genes_wide %>%
         * Separator value or character
 
 ```
-genes = genes_long %>% 
+genes = genes_long %>%
   separate(base_counts, c("counts", "sequence"), sep = "-")
 ```
 
