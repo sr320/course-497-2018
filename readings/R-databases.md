@@ -8,6 +8,7 @@ language: R
 * Topics
 
   * `dplyr` (review)
+  * `Rmarkdown` (review)
   * `tidyr`
 
 * Readings
